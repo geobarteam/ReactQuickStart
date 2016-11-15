@@ -1,0 +1,34 @@
+{
+  "name": "react-quick-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel gulp lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "gulp": "gulp"
+  },
+  "author": "Geoffrey Vandiest",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^0.14.41",
+    "@types/react-dom": "^0.14.18",
+    "child_process": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.1.1",
+    "lite-server": "^2.2.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1",
+    "typescript": "^2.0.3",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "npm-run-all": "^3.1.1",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.9.3"
+  }
+}
